@@ -13,8 +13,8 @@ import BookingApp from '../../assets/apps/BookingApp.png'
 
 const MyProjects = () => {
     const projects = [
-        { name: "Appvilla", logo: Appvilla, tags: ["HTML", "CSS", "Bootstrap"], link: "https://appvilla.vercel.app/" },
-        { name: "Serenity", logo: Serenity, tags: ["HTML", "CSS", "Bootstrap"], link: "https://serenity-five.vercel.app/" },
+        { name: "Appvilla clone", logo: Appvilla, tags: ["HTML", "CSS", "Bootstrap"], link: "https://appvilla.vercel.app/" },
+        { name: "Serenity clone", logo: Serenity, tags: ["HTML", "CSS", "Bootstrap"], link: "https://serenity-five.vercel.app/" },
         { name: "Weather App", logo: WeatherApp, tags: ["HTML", "CSS", "JavaScript", "React", "Bootstrap"], link: "https://github.com/madan3242/React-Js/tree/main/Apps/WeatherApp" },
         { name: "Todo App", logo: TodoApp, tags: ["HTML", "CSS", "JavaScript", "React", "Context API", "Bootstrap"], link: "https://github.com/madan3242/React-Js/tree/main/Apps/TodoApp" },
 
