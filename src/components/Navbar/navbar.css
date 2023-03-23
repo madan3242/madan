@@ -1,0 +1,30 @@
+.bgc {
+    background-color: #1ABC9C;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.navbar-brand, .nav-link, .nav-btn {
+    color: #F2F3F4;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #D7DBDD;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+.nav-btn {
+    border-color: #F2F3F4;
+}
+
+.nav-btn:hover {
+    color: #D7DBDD;
+    border-color: #D7DBDD;
+}
