@@ -13,15 +13,17 @@ const ContactMe = () => {
           </div>
           <div className="row">
             <div className="col-lg-6 mx-auto">
-              <form action="">
+              <form target="_blank" action="https://formsubmit.co/madangowda3242@gmail.com" method="POST">
                 <div className="mb-2">
                   <label className="form-label" htmlFor="">
                     Name
                   </label>
                   <input
                     type="text"
-                    className="form-control"
+                    name="name"
                     placeholder="Your Name"
+                    className="form-control"
+                    required
                   />
                 </div>
                 <div className="mb-2">
@@ -29,9 +31,11 @@ const ContactMe = () => {
                     Email
                   </label>
                   <input
-                    className="form-control"
-                    type="text"
+                    name="email"
+                    type="email"
                     placeholder="Your Email"
+                    className="form-control"
+                    required
                   />
                 </div>
                 <div className="mb-2">
@@ -39,12 +43,13 @@ const ContactMe = () => {
                     Message
                   </label>
                   <textarea
-                    className="form-control"
-                    name=""
+                    name="message"
                     id=""
                     cols="30"
                     rows="5"
                     placeholder="Your Message"
+                    className="form-control"
+                    required
                   ></textarea>
                 </div>
                 <input
