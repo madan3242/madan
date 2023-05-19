@@ -1,5 +1,8 @@
-.bgc {
+.navbar {
     background-color: #1ABC9C;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 .navbar-brand {
