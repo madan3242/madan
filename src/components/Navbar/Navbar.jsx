@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 
+import resume from '../../assets/madan-resume.pdf'
+
 const Navbar = () => {
   return (
     <>
@@ -23,6 +25,9 @@ const Navbar = () => {
                         <a href="#myprojects" className="nav-link">My Projects</a>
                     </li>
                 </ul>
+                <a href={resume} target='_blank'>
+                    <button className="btn nav-btn">My Resume</button>
+                </a>&nbsp;&nbsp;
                 <a href="#contactme">
                     <button className="btn nav-btn">Let's Talk</button>
                 </a>
