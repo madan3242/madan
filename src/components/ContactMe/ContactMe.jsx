@@ -52,11 +52,13 @@ const ContactMe = () => {
                     required
                   ></textarea>
                 </div>
+                <div className="mt-3">
                 <input
                   className="btn contact-btn"
                   type="submit"
                   value="Submit"
                 />
+                </div>
               </form>
             </div>
           </div>
