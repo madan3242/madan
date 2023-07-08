@@ -9,7 +9,6 @@ const Footer = () => {
     const year = d.getFullYear();
   return (
     <>
-        <div className="footer-bgc">
         <div className="container footer">
             <div className="row">
                 <div className="col-lg mx-auto links">
@@ -34,7 +33,6 @@ const Footer = () => {
                     <p>All Right Reserved {year} ® - Madan Gowda</p>
                 </div>
             </div>
-        </div>
         </div>
     </>
   )

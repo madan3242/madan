@@ -1,41 +1,50 @@
-import React from 'react'
-import './navbar.css'
+import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { AiOutlineHome } from "react-icons/ai";
+import { GrEmoji } from "react-icons/gr";
+import { CgWebsite } from "react-icons/cg";
+import { GoMail } from "react-icons/go";
+import "./Navbar.css";
 
-// import resume from '../../assets/madan-resume.pdf'
-
-const Navbar = () => {
+const HomeNavbar = () => {
   return (
     <>
-        <div className="bgc">
-        <div className="navbar navbar-expand-lg px-4">
-            <a href="" className="navbar-brand">Madan Gowda</a>
-
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mx-auto">
-                    <li className="nav-item mx-2">
-                        <a href="#home" className="nav-link">Home</a>
-                    </li>
-                    <li className="nav-item mx-2">
-                        <a href="#aboutme" className="nav-link">About Me</a>
-                    </li>
-                    <li className="nav-item mx-2">
-                        <a href="#myprojects" className="nav-link">My Projects</a>
-                    </li>
-                </ul>
-                {/* <a href={resume} target='_blank'>
-                    <button className="btn nav-btn">My Resume</button>
-                </a>&nbsp;&nbsp; */}
-                <a href="#contactme">
-                    <button className="btn nav-btn">Let's Talk</button>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Navbar style={{ position: "fixed"}}>
+          <Container>
+            <Nav className="text-center mx-auto">
+              <Nav.Item className="mx-2">
+                <a href="#home" className="nav-link">
+                  <AiOutlineHome size={35} />
                 </a>
-            </div>
-        </div>
-        </div>
+              </Nav.Item>
+              <Nav.Item className="mx-2">
+                <a href="#aboutme" className="nav-link">
+                  <GrEmoji size={35} />
+                </a>
+              </Nav.Item>
+              <Nav.Item className="mx-2">
+                <a href="#myprojects" className="nav-link">
+                  <CgWebsite size={35} />
+                </a>
+              </Nav.Item>
+              <Nav.Item className="mx-2">
+                <a href="#contactme" className="nav-link">
+                  <GoMail size={35} />
+                </a>
+              </Nav.Item>
+            </Nav>
+          </Container>
+        </Navbar>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default HomeNavbar;

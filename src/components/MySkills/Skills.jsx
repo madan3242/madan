@@ -1,13 +1,14 @@
-import React from 'react'
-import './MySkills.css'
+import React from "react";
+import "./MySkills.css";
+import { Col } from "react-bootstrap";
 
-export const Skills = ({name, logo}) => {
+export const Skills = ({ name, logo }) => {
   return (
-    <div className="col-lg-3">
-        <div className="skills">
-            <img src={logo} alt="" />
-            {name}
-        </div>
-    </div>
-  )
-}
+    <Col lg={3}>
+      <div className="skills">
+        <img src={logo} alt="" />
+        {name}
+      </div>
+    </Col>
+  );
+};

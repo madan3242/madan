@@ -1,6 +1,6 @@
-.myskills-bgc {
+/* .myskills-bgc {
     background-color: #1ABC9C;
-}
+} */
 
 .myskills {
     margin: 3rem auto;
@@ -25,6 +25,6 @@
 }
 
 .skills img {
-    width: 40px;
+    width: 50px;
     margin-right: 1rem;
 }

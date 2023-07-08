@@ -6,18 +6,20 @@ import Footer from './components/Footer/Footer'
 import MyProjects from './components/MyProjects/MyProjects'
 import MySkills from './components/MySkills/MySkills'
 import Navbar from './components/Navbar/Navbar'
-import Home from './pages/Home/Home'
+import Home from './components/Home/Home'
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <MySkills />
-      <MyProjects />
-      <ContactMe />
-      <Footer />
+      <div style={{ position: "relative"}}>
+        <Navbar />
+        <Home />
+        <AboutMe />
+        <MySkills />
+        <MyProjects />
+        <ContactMe />
+        <Footer />
+      </div>
     </>
   )
 }

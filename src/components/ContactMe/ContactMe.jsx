@@ -4,7 +4,7 @@ import "./ContactMe.css";
 const ContactMe = () => {
   return (
     <>
-      <div className="contactme-bgc" id="contactme">
+      <div id="contactme">
         <div className="container contactme">
           <div className="row">
             <div className="col">
