@@ -13,7 +13,7 @@ const Project = ({projectdetails}) => {
             projectdetails.tags.length > 0 ? <>
             {
               projectdetails.tags.map((tag) => {
-                return <span class="badge rounded-pill text-bg-secondary m-1 p-2">{tag}</span>
+                return <span className="badge rounded-pill text-bg-secondary m-1 p-2" key={tag}>{tag}</span>
               })
             }
             </> : <></>

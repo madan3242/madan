@@ -17,7 +17,6 @@ const MyProjects = () => {
         { name: "Serenity clone", logo: Serenity, tags: ["HTML", "CSS", "Bootstrap"], link: "https://serenity-five.vercel.app/" },
         { name: "Weather App", logo: WeatherApp, tags: ["HTML", "CSS", "JavaScript", "React", "Bootstrap"], link: "https://github.com/madan3242/React-Js/tree/main/Apps/WeatherApp" },
         { name: "Todo App", logo: TodoApp, tags: ["HTML", "CSS", "JavaScript", "React", "Context API", "Bootstrap"], link: "https://github.com/madan3242/React-Js/tree/main/Apps/TodoApp" },
-
         { name: "Product CRUD", logo: Product, tags: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"], link: "https://github.com/madan3242/MERN/tree/main/product-crud" },
         { name: "User Module", logo: User, tags: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"], link: "https://github.com/madan3242/MERN/tree/main/user-module" },
         { name: "Social App", logo: SocialApp, tags: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"], link: "https://github.com/madan3242/MERN/tree/main/SocialApp" },
