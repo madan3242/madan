@@ -33,7 +33,7 @@ const MySkills = () => {
   ];
   return (
     <>
-      <Container className="my-4">
+      <Container className="my-4 myskills">
         <Row>
           <Col className="text-center">
             <h2>My Skills</h2>
