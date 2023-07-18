@@ -1,69 +1,34 @@
 import React from "react";
 import "./ContactMe.css";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
 const ContactMe = () => {
   return (
     <>
-      <div id="contactme">
-        <div className="container contactme">
-          <div className="row">
-            <div className="col">
-              <h2>Contact Me</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6 mx-auto">
-              <form target="_blank" action="https://formsubmit.co/madangowda3242@gmail.com" method="POST">
-                <div className="mb-2">
-                  <label className="form-label" htmlFor="">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                    className="form-control"
-                    required
-                  />
-                </div>
-                <div className="mb-2">
-                  <label className="form-label" htmlFor="">
-                    Email
-                  </label>
-                  <input
-                    name="email"
-                    type="email"
-                    placeholder="Your Email"
-                    className="form-control"
-                    required
-                  />
-                </div>
-                <div className="mb-2">
-                  <label className="form-label" htmlFor="">
-                    Message
-                  </label>
-                  <textarea
-                    name="message"
-                    id=""
-                    cols="30"
-                    rows="5"
-                    placeholder="Your Message"
-                    className="form-control"
-                    required
-                  ></textarea>
-                </div>
-                <div className="mt-3">
-                <input
-                  className="btn contact-btn"
-                  type="submit"
-                  value="Submit"
-                />
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Container className="contactme" id="contactme">
+        <Row>
+          <Col><h2>Contact Me</h2></Col>
+        </Row>
+        <Row>
+          <Col lg={6} className="mx-auto">
+            <Form target="_blank" action="https://formsubmit.co/madangowda3242@gmail.com" method="POST">
+              <Form.Group>
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="text" name="name" placeholder="Your Name" required/>
+              </Form.Group>
+              <Form.Group className="mt-3">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" name="email" placeholder="Your Email" required/>
+              </Form.Group>
+              <Form.Group className="mt-3">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" name="message" cols="30" rows="5" placeholder="Your Message" required/>
+              </Form.Group>
+              <Button type="submit" className="contact-btn mt-3" variant="none">Submit</Button>
+            </Form>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };
