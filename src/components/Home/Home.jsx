@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Home.css";
 import { Col, Container, Row } from "react-bootstrap";
+import Typed from "typed.js";
 
 const Home = () => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Full Stack Developer", "React.js Developer", "Node.js Developer"],
+      startDelay: 300,
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 100,
+      loop: true
+    })
+
+    return () => {
+      typed.destroy();
+    }
+  })
   return (
     <>
       <Container id="home">
@@ -12,7 +29,7 @@ const Home = () => {
               <div className="heading">
                 <h2 className="slide-up">Hello I'm</h2>
                 <h1 className="slide-up">Madan Gowda</h1>
-                <h2 className="slide-up">A Full Stack Web Developer</h2>
+                <h2 className="slide-up">I'm a <span ref={el}></span></h2>
               </div>
             </div>
           </Col>
