@@ -12,13 +12,8 @@ const AboutMe = () => {
           </div>
           <div className="row">
             <div className="col-lg-8 mx-auto">
-              <p>
-                Hi, I'm Madan Gowda. A Full Stack Web Developer .
-                I am specialized in devloping responsive websites and web applications.
-                Good at both front-end and back-end technologies like HTML, CSS, Javascript, React, Redux, Node, Express, Bootstrap, Git etc. 
-              </p>
-              <p>I'm currently working on MERN stack projects and learning TypeScript and NextJS. 
-                I'm looking to collabrate on MERN stack projects.</p>
+              <p>Versatile Full Stack Developer | Proficient in React.js, Node.js, TypeScript, Docker, and AWS | Skilled in crafting robust and scalable web applications | Passionate about delivering high-quality software solutions for optimal user experiences.</p>
+              <p>With 2+ years of hands-on experience, I've successfully contributed to various projects for startups. Committed to delivering innovative solutions for optimal user experiences. My expertise lies in full-stack development, where I blend creativity and technical prowess to deliver exceptional solutions.</p>
             </div>
           </div>
         </div>
