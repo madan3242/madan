@@ -1,17 +1,17 @@
 import './App.css';
-// import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import AboutMe from './components/aboutme/AboutMe';
-import Skills from './components/skills/Skills';
-import Projects from './components/projects/Projects';
-import ContactMe from './components/contactme/ContactMe';
-import Footer from './components/footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import AboutMe from './components/AboutMe/AboutMe';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import ContactMe from './components/ContactMe/ContactMe';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
     <>
       <div style={{ position: "relative"}}>
-        {/* <Navbar /> */}
+        <Navbar />
         <Home />
         <AboutMe />
         <Skills />
