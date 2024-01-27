@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar as ReactNavbar } from "react-bootstrap";
 import { AiOutlineHome } from "react-icons/ai";
 import { GrEmoji } from "react-icons/gr";
 import { CgWebsite } from "react-icons/cg";
 import { GoMail } from "react-icons/go";
 
-const HomeNavbar = () => {
+const Navbar = () => {
   return (
     <>
       <div
@@ -15,7 +15,7 @@ const HomeNavbar = () => {
           justifyContent: "center",
         }}
       >
-        <Navbar style={{ position: "fixed"}}>
+        <ReactNavbar style={{ position: "fixed"}}>
           <Container>
             <Nav className="text-center mx-auto">
               <Nav.Item className="mx-2">
@@ -40,10 +40,10 @@ const HomeNavbar = () => {
               </Nav.Item>
             </Nav>
           </Container>
-        </Navbar>
+        </ReactNavbar>
       </div>
     </>
   );
 };
 
-export default HomeNavbar;
+export default Navbar;
