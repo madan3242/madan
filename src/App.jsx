@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
+// import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import AboutMe from './components/aboutme/AboutMe';
 import Skills from './components/skills/Skills';
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <div style={{ position: "relative"}}>
-        <Navbar />
+        {/* <Navbar /> */}
         <Home />
         <AboutMe />
         <Skills />
