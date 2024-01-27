@@ -1,8 +1,7 @@
 import React from "react";
-import "./MySkills.css";
 import { Col } from "react-bootstrap";
 
-export const Skills = ({ name, logo }) => {
+const SkillsCard = ({ name, logo }) => {
   return (
     <Col lg={3}>
       <div className="skills">
@@ -12,3 +11,5 @@ export const Skills = ({ name, logo }) => {
     </Col>
   );
 };
+
+export default SkillsCard;

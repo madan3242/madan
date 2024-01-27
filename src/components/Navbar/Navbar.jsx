@@ -4,7 +4,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import { GrEmoji } from "react-icons/gr";
 import { CgWebsite } from "react-icons/cg";
 import { GoMail } from "react-icons/go";
-import './navbar.css';
 
 const HomeNavbar = () => {
   return (

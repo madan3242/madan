@@ -1,12 +1,11 @@
-import React from 'react'
-import './App.css'
-import AboutMe from './components/AboutMe/AboutMe'
-import ContactMe from './components/ContactMe/ContactMe'
-import Footer from './components/Footer/Footer'
-import MyProjects from './components/MyProjects/MyProjects'
-import MySkills from './components/MySkills/MySkills'
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home/Home'
+import './App.css';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import AboutMe from './components/aboutme/AboutMe';
+import Skills from './components/skills/Skills';
+import Projects from './components/projects/Projects';
+import ContactMe from './components/contactme/ContactMe';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
@@ -15,8 +14,8 @@ const App = () => {
         <Navbar />
         <Home />
         <AboutMe />
-        <MySkills />
-        <MyProjects />
+        <Skills />
+        <Projects />
         <ContactMe />
         <Footer />
       </div>

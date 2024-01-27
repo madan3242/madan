@@ -1,5 +1,4 @@
 import React from "react";
-import "./ContactMe.css";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
 const ContactMe = () => {

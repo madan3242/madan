@@ -1,5 +1,4 @@
 import React from 'react'
-import'./Footer.css'
 import github from '../../assets/github.svg'
 import linkedin from '../../assets/linkedin.svg'
 import twitter from '../../assets/twitter.svg'

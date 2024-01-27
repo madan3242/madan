@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "./Project";
-
 import Appvilla from "../../assets/apps/appvilla.png";
 import AddToCart from "../../assets/apps/addtocart.png";
 import Serenity from "../../assets/apps/serenity.png";
@@ -10,9 +9,8 @@ import SocialApp from "../../assets/apps/SocialApp.png";
 import BookingApp from "../../assets/apps/BookingApp.png";
 import Employee from "../../assets/apps/employee.png";
 import { Col, Container, Row } from "react-bootstrap";
-import "./MyProjects.css";
 
-const MyProjects = () => {
+const Projects = () => {
   const projects = [
     {
       name: "Add To Cart",
@@ -103,4 +101,4 @@ const MyProjects = () => {
   );
 };
 
-export default MyProjects;
+export default Projects;

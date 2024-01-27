@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import "./Home.css";
 import { Col, Container, Row } from "react-bootstrap";
 import Typed from "typed.js";
+import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   const el = useRef(null);
@@ -22,19 +22,21 @@ const Home = () => {
   })
   return (
     <>
-      <Container id="home">
-        <Row>
-          <Col>
-            <div className="home text-center">
-              <div className="heading">
-                <h2 className="slide-up">Hello I'm</h2>
-                <h1 className="slide-up">Madan Gowda</h1>
-                <h2 className="slide-up">I'm a <span ref={el}></span></h2>
+      <Fade direction="down" delay="1">
+        <Container id="home">
+          <Row>
+            <Col>
+              <div className="home text-center">
+                <div className="heading">
+                  <h2>Hello I'm</h2>
+                  <h1>Madan Gowda</h1>
+                  <h2>I'm a <span ref={el}></span></h2>
+                </div>
               </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+            </Col>
+          </Row>
+        </Container>
+      </Fade>
     </>
   );
 };

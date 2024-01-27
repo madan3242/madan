@@ -1,10 +1,11 @@
 import React from 'react'
-import './Aboutme.css'
+import { Fade } from 'react-awesome-reveal'
 
 const AboutMe = () => {
   return (
     <>
-        <div className="container aboutme" id="aboutme">
+      <div className="container aboutme" id="aboutme">
+        <Fade direction='up'>
           <div className="row">
             <div className="col mx-auto">
               <h2>About Me</h2>
@@ -16,7 +17,8 @@ const AboutMe = () => {
               <p>With 2+ years of hands-on experience, I've successfully contributed to various projects for startups. Committed to delivering innovative solutions for optimal user experiences. My expertise lies in full-stack development, where I blend creativity and technical prowess to deliver exceptional solutions.</p>
             </div>
           </div>
-        </div>
+        </Fade>
+      </div>
     </>
   )
 }

@@ -1,7 +1,5 @@
 import React from "react";
-import "./MySkills.css";
-import { Skills } from "./Skills";
-
+import SkillsCard from "./SkillsCard";
 import html from "../../assets/logos/html.png";
 import css from "../../assets/logos/css.png";
 import js from "../../assets/logos/js.png";
@@ -16,7 +14,7 @@ import git from "../../assets/logos/git.png";
 import github from "../../assets/logos/github.png";
 import { Col, Container, Row } from "react-bootstrap";
 
-const MySkills = () => {
+const Skills = () => {
   const skills = [
     { name: "HTML", logo: html },
     { name: "CSS", logo: css },
@@ -44,7 +42,7 @@ const MySkills = () => {
             <>
               {skills.map((skill) => {
                 return (
-                  <Skills
+                  <SkillsCard
                     name={skill.name}
                     logo={skill.logo}
                     key={skill.name}
@@ -59,4 +57,4 @@ const MySkills = () => {
   );
 };
 
-export default MySkills;
+export default Skills;
