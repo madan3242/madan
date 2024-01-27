@@ -1,5 +1,6 @@
 import React from "react";
 import SkillsCard from "./SkillsCard";
+import { Col, Container, Row } from "react-bootstrap";
 import html from "../../assets/logos/html.png";
 import css from "../../assets/logos/css.png";
 import js from "../../assets/logos/js.png";
@@ -12,7 +13,6 @@ import mongodb from "../../assets/logos/mongodb.png";
 import mysql from "../../assets/logos/mysql.png";
 import git from "../../assets/logos/git.png";
 import github from "../../assets/logos/github.png";
-import { Col, Container, Row } from "react-bootstrap";
 
 const Skills = () => {
   const skills = [
