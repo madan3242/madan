@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
+import Navbar from './components/navbar/navbar';
+import Home from './components/home/home';
 // import AboutMe from './components/aboutme/AboutMe';
 // import Skills from './components/skills/Skills';
 // import Projects from './components/projects/Projects';
