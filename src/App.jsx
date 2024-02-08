@@ -1,11 +1,12 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import AboutMe from './components/aboutme/AboutMe';
-import Skills from './components/skills/Skills';
-import Projects from './components/projects/Projects';
-import ContactMe from './components/contactme/ContactMe';
-import Footer from './components/footer/Footer';
+import { AboutMe, ContactMe, Footer, Home, Navbar, Projects, Skills } from './components';
+// import Navbar from './components/navbar/Navbar';
+// import Home from './components/home/Home';
+// import AboutMe from './components/aboutme/AboutMe';
+// import Skills from './components/skills/Skills';
+// import Projects from './components/projects/Projects';
+// import ContactMe from './components/contactme/ContactMe';
+// import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
@@ -23,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
