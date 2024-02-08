@@ -1,7 +1,6 @@
 import './App.css';
-import { AboutMe, ContactMe, Footer, Home, Navbar, Projects, Skills } from './components';
-// import Navbar from './components/navbar/Navbar';
-// import Home from './components/home/Home';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
 // import AboutMe from './components/aboutme/AboutMe';
 // import Skills from './components/skills/Skills';
 // import Projects from './components/projects/Projects';
@@ -14,11 +13,11 @@ const App = () => {
       <div style={{ position: "relative"}}>
         <Navbar />
         <Home />
-        <AboutMe />
+        {/* <AboutMe />
         <Skills />
         <Projects />
         <ContactMe />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   )
