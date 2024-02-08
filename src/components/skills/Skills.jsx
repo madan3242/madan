@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsCard from "./SkillsCard";
+import SkillsCard from "./skillscard";
 import { Col, Container, Row } from "react-bootstrap";
 import html from "../../assets/logos/html.png";
 import css from "../../assets/logos/css.png";

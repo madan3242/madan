@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import Project from "./project";
 import Appvilla from "../../assets/apps/appvilla.png";
 import AddToCart from "../../assets/apps/addtocart.png";
 import Serenity from "../../assets/apps/serenity.png";
