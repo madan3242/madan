@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Col, Container, Row, Nav, Navbar as ReactNavbar, Card, Form, Button } from "react-bootstrap";
+import { Col, Container, Row, Nav, Navbar, Card, Form, Button } from "react-bootstrap";
 import Typed from "typed.js";
 import { Fade } from "react-awesome-reveal";
 import { AiOutlineHome } from "react-icons/ai";
@@ -146,7 +146,7 @@ const Home = () => {
                     justifyContent: "center",
                 }}
             >
-                <ReactNavbar style={{ position: "fixed" }}>
+                <Navbar style={{ position: "fixed" }}>
                     <Container>
                         <Nav className="text-center mx-auto">
                             <Nav.Item className="mx-2">
@@ -171,7 +171,7 @@ const Home = () => {
                             </Nav.Item>
                         </Nav>
                     </Container>
-                </ReactNavbar>
+                </Navbar>
             </div>
             <div>
                 <Fade direction="down" delay="1">
